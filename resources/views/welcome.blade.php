@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="./assets/css/theme.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
-    <title>Landkit</title>
+    <title>Karvert</title>
   </head>
   <body>
     
@@ -190,7 +190,7 @@
                 
               <!-- Icon -->
               <div class="icon text-primary">
-                <i class="far fa-file-chart-pie fa-2x"></i>
+                <i class="fas fa-sitemap fa-2x mt-2"></i>
               </div>
 
               <div class="ml-5">
@@ -212,7 +212,7 @@
                 
               <!-- Icon -->
               <div class="icon text-primary">
-                <i class="far fa-chart-line fa-2x"></i>
+                <i class="fas fa-chart-line fa-2x mt-2"></i>
               </div>
 
               <div class="ml-5">
@@ -234,7 +234,7 @@
                 
               <!-- Icon -->
               <div class="icon text-primary">
-                <i class="fab fa-rev fa-2x"></i>
+                <i class="fab fa-rev fa-2x mt-2"></i>
               </div>
 
               <div class="ml-5">
