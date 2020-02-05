@@ -43,20 +43,27 @@
         <!-- Collapse -->
         <div class="collapse navbar-collapse" id="navbarCollapse">
 
-          <!-- Toggler -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fe fe-x"></i>
-          </button>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fe fe-x"></i>
+            </button>
 
-          <!-- Navigation -->
-          <ul class="navbar-nav ml-auto">
-              <a class="nav-link" href="#advertisers">
-                Advertisers
-              </a>
-              <a class="nav-link" href="#drivers">
-                Drivers
-              </a>
-          </ul>
+            <!-- Navigation -->
+            <ul class="navbar-nav ml-auto">
+                <a class="nav-link" href="#advertisers">
+                    Advertisers
+                </a>
+                <a class="nav-link" href="#drivers">
+                    Drivers
+                </a>
+                @if (Route::has('login'))
+                    @auth
+                        <a class="nav-link" href="{{ route('logout') }}">Logout</a>
+                    @else
+                        <a class="nav-link" href="{{ route('login') }}">Login/Signup</a>
+                    @endauth
+                @endif
+            </ul>
 
         </div>
   
